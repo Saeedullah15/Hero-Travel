@@ -1,0 +1,26 @@
+main
+1. banner section
+2. popular tours section
+3. choose destination section
+4. why choose us section
+5. newsletter section
+6. footer section
+7. desktop view and mobile responsive
+   breakpoints:
+   a) large device (laptop, desktop) - 992px and up
+   b) small device (phone) - 600px and down
+8. no lorem ipsum, text must be meaningful
+
+bonus
+1. self defined website name
+2. navbar
+3. showing a text on hover effect on choose destination section
+4. one unique self defined extra section
+5. min 3 meaningful git commit
+
+optional
+1. deals and discounts section
+2. simple perfect place section
+
+***tablet responsive optional
+***no bad color
