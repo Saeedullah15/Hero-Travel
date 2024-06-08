@@ -1,5 +1,5 @@
 main
-1. banner section
+1. banner section | 
 2. popular tours section
 3. choose destination section
 4. why choose us section
