@@ -12,9 +12,9 @@ main
 8. no lorem ipsum, text must be meaningful | done
 
 bonus
-1. self defined website name
-2. navbar
-3. showing a text on hover effect on choose destination section
+1. self defined website name | done
+2. navbar | done
+3. showing a text on hover effect on choose destination section | 
 4. one unique self defined extra section
 5. min 3 meaningful git commit | done
 
@@ -22,5 +22,5 @@ optional
 1. deals and discounts section
 2. simple perfect place section
 
-***tablet responsive optional
-***no bad color
+***tablet responsive optional | done
+***no bad color | done
