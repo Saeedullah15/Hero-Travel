@@ -4,19 +4,19 @@ main
 3. choose destination section | done with responsive
 4. why choose us section | done with responsive
 5. newsletter section | done with responsive
-6. footer section
-7. desktop view and mobile responsive
+6. footer section | done with responsive
+7. desktop view and mobile responsive | done
    breakpoints:
    a) large device (laptop, desktop) - 992px and up
    b) small device (phone) - 600px and down
-8. no lorem ipsum, text must be meaningful
+8. no lorem ipsum, text must be meaningful | done
 
 bonus
 1. self defined website name
 2. navbar
 3. showing a text on hover effect on choose destination section
 4. one unique self defined extra section
-5. min 3 meaningful git commit
+5. min 3 meaningful git commit | done
 
 optional
 1. deals and discounts section
