@@ -1,7 +1,7 @@
 main
-1. banner section | 
-2. popular tours section
-3. choose destination section
+1. banner section | done with responsive
+2. popular tours section | done with responsive
+3. choose destination section | 
 4. why choose us section
 5. newsletter section
 6. footer section

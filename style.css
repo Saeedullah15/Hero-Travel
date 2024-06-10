@@ -1,57 +1,54 @@
+/* for all */
 * {
     margin: 0px;
     padding: 0px;
     font-family: "Mulish", sans-serif;
-    font-optical-sizing: auto;
 }
 
-header,
-main {
-    max-width: 1170px;
-    margin: 0 auto;
-}
 
 /* shared common styles */
 .button-1 {
     border-radius: 8px;
     background: rgb(255, 84, 0);
+    color: white;
+    font-size: 0.9em;
+    font-weight: 700;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
 }
 
 .orange-highlighter {
     color: rgb(255, 84, 0);
-    font-family: Mulish;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
 }
 
 .black-heading {
     color: rgb(19, 19, 24);
-    font-family: Mulish;
-    font-size: 40px;
+    font-size: 2em;
     font-weight: 800;
-    line-height: 50px;
-    letter-spacing: 0%;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .small-description {
     color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
-    font-size: 16px;
+    font-size: 0.8em;
     font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 /* banner section styles */
 .banner {
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url("Images/Group 1.png");
-    height: 500px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 120px 80px;
+    padding-bottom: 50px;
 }
 
 .banner-text,
@@ -61,17 +58,17 @@ main {
 }
 
 .banner-text {
-    padding: 80px 250px 50px;
+    padding: 5em 6em 3em;
 }
 
 .banner-text h1 {
-    font-size: 64px;
+    font-size: 3em;
     font-weight: 800;
     margin-bottom: 25px;
 }
 
 .banner-text small {
-    font-size: 15px;
+    font-size: 0.9em;
     font-weight: 400;
     line-height: 26px;
 }
@@ -79,7 +76,7 @@ main {
 .banner-input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
-    width: 780px;
+    width: 80%;
     height: 45px;
     display: flex;
     padding: 16px;
@@ -91,7 +88,7 @@ select {
     border: none;
     border-radius: 6px;
     background: rgb(255, 255, 255);
-    width: 150px;
+    width: 25%;
     height: 30px;
     padding: 6px 15px;
     box-sizing: content-box;
@@ -103,45 +100,107 @@ select {
     border: none;
     border-radius: 6px;
     background: rgb(255, 84, 0);
-    width: 150px;
+    width: 25%;
     height: 30px;
     padding: 6px 15px;
     box-sizing: content-box;
     color: white;
 }
 
+/* popular tours sections styles */
+.popular-tours {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin: 0px 120px 100px;
+}
+
+.popular-tours-text ul {
+    margin-left: 25px;
+}
+
+.popular-tours-text {
+    width: 50%;
+}
+
+.popular-tours-img {
+    width: 50%;
+}
+
+.popular-tours-img img {
+    border-radius: 16px;
+    width: 100%;
+    height: 400px;
+}
+
 /* mobile responsive styles */
 @media screen and (max-width: 600px) {
+
+    /* banner section styles */
     .banner {
-        margin: 20px;
+        margin: 10px 20px;
+        padding-bottom: 25px;
     }
 
     .banner-text {
-        padding: 20px;
+        padding: 1.5em 1.2em;
     }
 
     .banner-text h1 {
-        font-size: 50px;
+        font-size: 1.2em;
         font-weight: 800;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text small {
+        font-size: 0.6em;
+        line-height: 15px;
+        display: block;
     }
 
     .banner-input {
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 10px;
-        margin-top: 30px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.3);
-        width: 200px;
-        height: auto;
-        padding: 16px;
+        padding: 10px;
+        margin: 0 20px;
     }
 
     .banner-input input,
     select {
-        margin: 0px;
+        width: auto;
+        height: 30px;
+        padding: 6px 15px;
+        box-sizing: content-box;
+        margin-right: 0px;
+    }
+
+    .banner-input button {
+        width: auto;
+    }
+
+    /* popular tours section styles */
+    .popular-tours {
+        margin: 10px 20px;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .popular-tours-text {
+        width: 100%;
+    }
+
+    .popular-tours-img {
+        width: 100%;
+    }
+
+    .black-heading {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
 }
