@@ -2,8 +2,8 @@ main
 1. banner section | done with responsive
 2. popular tours section | done with responsive
 3. choose destination section | done with responsive
-4. why choose us section
-5. newsletter section
+4. why choose us section | done with responsive
+5. newsletter section | done with responsive
 6. footer section
 7. desktop view and mobile responsive
    breakpoints:
