@@ -271,6 +271,42 @@ select {
     margin-bottom: 20px;
 }
 
+/* reviews section styles */
+.review {
+    margin: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.review-heading h1 {
+    margin: 100px 120px 0px;
+    text-align: center;
+}
+
+.arrow {
+    width: 60px;
+}
+
+.review-card>img {
+    width: 9%;
+}
+
+.review-card h5 {
+    font-size: 1.2em;
+}
+
+.rating {
+    margin-top: 20px;
+}
+
+.rating img {
+    width: 30px;
+}
+
 /* newsletter section styles */
 .newsletter {
     margin: 80px 120px 50px;
@@ -572,5 +608,43 @@ select {
     .footer hr {
         border: 1px solid rgba(19, 19, 24, 0.1);
         margin-bottom: 30px;
+    }
+
+    /* reviews section styles */
+    .review {
+        margin: 0px 0px 60px;
+        gap: 10px;
+    }
+
+
+    .review-heading h1 {
+        margin: 80px 20px 40px;
+        font-size: 1.3em;
+    }
+
+    .arrow {
+        width: 30px;
+    }
+
+    .review-card>img {
+        width: 50px;
+    }
+
+    .review-card h5 {
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+
+    .review-card small {
+        display: inline-block;
+        text-align: justify;
+    }
+
+    .rating {
+        margin-top: 0px;
+    }
+
+    .rating img {
+        width: 20px;
     }
 }

@@ -15,7 +15,7 @@ bonus
 1. self defined website name | done
 2. navbar | done
 3. showing a text on hover effect on choose destination section | 
-4. one unique self defined extra section
+4. one unique self defined extra section | done with responsive
 5. min 3 meaningful git commit | done
 
 optional
